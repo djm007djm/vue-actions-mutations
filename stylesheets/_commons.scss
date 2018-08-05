@@ -1,0 +1,18 @@
+
+.page-top {
+    padding-top: 0.9rem;
+}
+.btn {
+    background: rgb(245, 244, 244);
+    color: #333;
+    border-radius: 0.1rem;
+    border: 1px solid #e2e2e2;
+    font-size: 0.28rem; 
+    height: 0.6rem;
+    padding: 0px 0.4rem;
+    &.btn-primary {
+        background: $base-color;
+        color: #fff;
+        border-color: darken($base-color, 2);
+    }
+}
